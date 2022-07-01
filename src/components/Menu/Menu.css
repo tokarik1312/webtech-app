@@ -1,0 +1,65 @@
+.block {
+    width: 500px;
+    height: 60px;
+    background-color: rgb(228, 220, 220);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.btn {
+    width: 80%;
+    border-radius: 50px;
+    
+}
+
+.add {
+    height: 60px;
+    background-color: rgb(9, 226, 118) !important;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.add:hover {
+    background-color: rgb(9, 226, 118);
+    color: white;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 770px){
+
+    .block {
+        flex-direction: column;
+        width: auto;
+        height: 120px;
+        background-color: rgb(228, 220, 220);
+        border-radius: 20px;
+    }
+
+    .onAdd {
+        position: fixed;
+        height: 100px;
+        bottom: 0;
+        width: 100%;
+        display: flex !important;
+        justify-content: stretch !important;
+        z-index: 1;
+    }
+
+    .block button {
+        width: 100%;
+        border-radius: 50px;
+        
+    }
+
+    .add {
+        width: 30rem;
+        display: flex;
+        justify-self: start !important;
+    }
+
+
+    
+
+}

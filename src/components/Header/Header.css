@@ -1,0 +1,26 @@
+.name {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.selector {
+    display: flex;
+}
+
+
+@media (min-width: 0px) and (max-width: 770px){
+    .name {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .globe {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 50px;
+        font-size: 20px;
+    }
+   
+}
