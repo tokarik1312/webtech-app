@@ -27,7 +27,7 @@
 
 
 
-@media (min-width: 0px) and (max-width: 770px){
+@media (min-width: 0px) and (max-width: 770px) {
 
     .block {
         flex-direction: column;
@@ -59,7 +59,5 @@
         justify-self: start !important;
     }
 
-
-    
 
 }

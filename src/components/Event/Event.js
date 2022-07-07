@@ -249,21 +249,21 @@ class Event extends React.Component {
             </div>
           </div>
           <div style={this.state.visibility} className="options">
-            <div className="option d-flex px-2">
+            <div className="option d-flex px-2" onClick={this.onEdit}>
               <i className="bi bi-pen"></i>
-              <div className="ms-2" onClick={this.onEdit}>
+              <div className="ms-2">
                 Edit
               </div>
             </div>
-            <div className="option d-flex px-2">
+            <div className="option d-flex px-2" onClick={this.publish}>
               <i className="bi bi-cloud-upload"></i>
-              <div className="ms-2" onClick={this.publish}>
+              <div className="ms-2">
                 Publish
               </div>
             </div>
-            <div className="option d-flex px-2">
+            <div className="option d-flex px-2" onClick={this.onDelete}>
               <i className="bi bi-trash3"></i>
-              <div className="ms-2" onClick={this.onDelete}>
+              <div className="ms-2">
                 Delete
               </div>
             </div>

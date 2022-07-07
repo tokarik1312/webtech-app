@@ -10,7 +10,7 @@ class EventsGrid extends React.Component {
 
     if (this.props.conditionToChange === false) {
       return (
-        <div className="container-sm">
+        <div className="container-sm adaptiveGrid">
           <div className="row">
             {
               this.props.published.map((publishedEvent) => {

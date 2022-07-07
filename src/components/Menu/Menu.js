@@ -85,7 +85,7 @@ class Menu extends React.Component {
               <button type="button" className="btn" onClick={this.unpublished} style={this.state.unpublishedStyle}>Unpublished</button>
             </div>
           </div>
-          <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 onAdd d-flex justify-content-end ">
+          <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 onAdd d-flex justify-content-end">
             <button type="button" className="btn add sticky-sm-bottom d-flex justify-content-center align-items-center px-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               <div className="mx-2"><i className="bi bi-plus-lg"></i></div>
               <div>Add Event</div>
