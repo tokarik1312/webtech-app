@@ -28,5 +28,10 @@
 }
 
 .date {
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.card-text {
+    font-size: 28px;
+    font-weight: bold;
 }
